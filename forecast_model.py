@@ -58,7 +58,7 @@ def run_forecast():
 
     # Kết nối cơ sở dữ liệu
     conn = psycopg2.connect(
-        host="localhost",
+        host="db.xxxxx.supabase.co",
         port=5432,
         database="tnbike_db",
         user="postgres",
